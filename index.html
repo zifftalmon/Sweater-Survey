@@ -40,6 +40,11 @@ background-image: linear-gradient(to right bottom, #e48ac8, #d878be, #cd66b4, #c
     color: #fff;
     border-radius: 50px;
 }
+hr {
+    margin-top: 50px;
+    width: 80%;
+    border: 1px solid black;
+}
 
 #text-input{
   display: flex;
@@ -124,17 +129,20 @@ select {
     align-items: center;
 }
 
-#radio{
-  position: relative;
-  left: 170px;
-}
-
 #radio-button-text{
   font-size: 30px;
   font-family: 'Montserrat Alternates', sans-serif;
   text-align: center;
   color: #A8EB12;
 }
+
+#radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 180px;
+}
+
 
 .radio{
   font-size: 30px;
@@ -238,9 +246,10 @@ Inform Us What Is your Favourite Knitted Garment
  </select>
 </div>
 
+
 <h3 id="radio-button-text"><u>My prefered sweater figure is:</u></h3>
 
-  <div id="radio">
+  <div id="radio" class="radio-input">
   
 <label class="radio" for="Golf">
 <input id="Golf" type="radio" value="Golf" name="Golf-Tweed-Sleeveless">Golf
