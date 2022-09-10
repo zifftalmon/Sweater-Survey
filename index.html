@@ -154,9 +154,12 @@ input[type=radio]{
 }
 
 #checkbox{
-   position: relative;
-  left: 175px; 
-  bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100px;
 }
 
 #checkbox-text{
@@ -167,8 +170,16 @@ input[type=radio]{
 }
 
 .checkbox{
+    display: flex;
+    justify-content: space-evenly;
   font-size: 30px;
   font-family: 'Montserrat Alternates', sans-serif;
+}
+.checkbox-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 270px;
+    
 }
 
 input[type="checkbox"]{
@@ -178,25 +189,37 @@ input[type="checkbox"]{
 }
 
 #textarea{
-  position: relative;
   font-size: 30px;
   font-family: 'Montserrat Alternates', sans-serif;
   text-align: justify;
   color: #A8EB12;
-  left: 130px;
   width: 70%;
-  bottom: 30px;
+  height: 200px;
+  border-radius: 10px;
+}
+.text-area {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
 }
 
 #submit{
-  position: relative;
   font-size: 30px;
   font-family: 'Montserrat Alternates', sans-serif;
   text-align: center;
   background-color: #D16BA5;
   color: #A8EB12;
-  left: 345px;
-  bottom: 10px;
+  width: 40%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border:none;
+  border-radius: 20px;
+  
+}
+.submit {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -268,34 +291,44 @@ Inform Us What Is your Favourite Knitted Garment
 <h4 id="checkbox-text"><u>Most of My Sweaters are:</u></h4>
 
   <div id="checkbox">
-  
+  <div class="checkbox-div">
 <label class="checkbox" for="Black">
-  <input id="Black" type="checkbox" value="Black" name="Black-White-Colorful-Checkered-Striped">Black
-</label><br>
+  <input id="Black" type="checkbox" value="Black" name="Black-White-Colorful-Checkered-Striped-Christmas">Black
+</label>
 
 <label class="checkbox" for="white">
-  <input id="white" type="checkbox" value="white" name="Black-White-Colorful-Checkered-Striped">White
-</label><br>
+  <input id="white" type="checkbox" value="white" name="Black-White-Colorful-Checkered-Striped-Christmas">White
+</label>
   
   <label class="checkbox" for="Colorful">
-    <input id="Colorful" type="checkbox" value="Colorful" name="Black-White-Colorful-Checkered-Striped">Colorful
-  </label><br>
-  
+    <input id="Colorful" type="checkbox" value="Colorful" name="Black-White-Colorful-Checkered-Striped-Christmas">Colorful
+  </label>
+  </div>
+  <div class="checkbox-div">
   <label class="checkbox" for="Checkered">
-    <input id="Checkered" type="checkbox" value="checkered" name="Black-White-Colorful-Checkered-Striped">Checkered
-</label><br>
+    <input id="Checkered" type="checkbox" value="checkered" name="Black-White-Colorful-Checkered-Striped-Christmas">Checkered
+</label>
 
 <label class="checkbox" for="Striped">
-  <input id="Striped" type="checkbox" value="Striped" name="Black-White-Colorful-Checkered-Striped">Striped
-</label><br><br>
+  <input id="Striped" type="checkbox" value="Striped" name="Black-White-Colorful-Checkered-Striped-Christmas">Striped
+</label>
+
+<label class="checkbox" for="Christmas">
+    <input id="Christmas" type="checkbox" value="Christmas" name="Black-White-Colorful-Checkered-Striped-Christmas">Christmas
+  </label>
+  </div>
+
 
   </div> 
-    
+  <hr>
+ <div class="text-area">     
 <textarea id="textarea" placeholder="Please let us Know more about your favorite sweaters in this section">
 </textarea>
+ </div>
 <br> 
+<div class="submit">
 <button id="submit" type="submit">Submit</button>
-
+</div>
 </form>
 </body>
 </html>
