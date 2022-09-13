@@ -1,0 +1,206 @@
+body{
+    background-image: linear-gradient(to right bottom, #e48ac8, #d878be, #cd66b4, #c053aa, #b440a1, #ad3694, #a62b87, #9f207a, #982369, #8f2759, #852c4d, #793043);
+    }
+    
+    #title{
+      font-size: 40px;
+      font-family: 'Montserrat Alternates', sans-serif;
+      text-align: center;
+      color: #A8EB12;
+    }
+    
+    #description{
+      font-size: 30px;
+       font-family: 'Montserrat Alternates', sans-serif;
+      text-align: center;
+      color: #A8EB12;
+    }
+    
+    .box{
+        display: flex;
+        flex-direction: column;
+      background-color: rgba(0,0,0,.5);
+        color: #fff;
+        border-radius: 50px;
+    }
+    hr {
+        margin-top: 50px;
+        width: 80%;
+        border: 1px solid black;
+    }
+    
+    #text-input{
+      display: flex;
+      flex-direction: column;
+      text-align:center;
+      margin-top: 10px;
+      
+    }
+    #text-input div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+           
+        
+    }
+    
+    #name-label{
+      font-size: 45px;
+       font-family: 'Montserrat Alternates', sans-serif;
+    }
+    
+    #name{
+      font-size: 20px;
+       font-family: 'Montserrat Alternates', sans-serif;
+       width: 50%;
+       height: 50px;
+       border-radius: 10px;
+    }
+    
+    #email-label{
+      font-size: 45px;
+       font-family: 'Montserrat Alternates', sans-serif;
+    }
+    
+    #email{
+      font-size: 20px;
+       font-family: 'Montserrat Alternates', sans-serif;
+       width: 50%;
+       height: 50px;
+       border-radius: 10px;
+    }
+    
+    #number-label{
+      font-size: 45px;
+       font-family: 'Montserrat Alternates', sans-serif;
+       width: 50%;
+       height: 50px;
+    }
+    
+    #number{
+      font-size: 20px;
+      font-family: 'Montserrat Alternates', sans-serif;
+      width: 20%;
+      height: 50px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    
+    #dropdown-text{
+      font-size: 30px;
+      font-family: 'Montserrat Alternates', sans-serif;
+      text-align: center;
+      color: #A8EB12;
+    }
+    
+    .dropdown {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #dropdown{
+      width: 60%;
+      height: 50px;
+      font-size: 30px;
+      font-family: 'Montserrat Alternates', sans-serif; 
+      text-align: center; 
+    }
+    select {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #radio-button-text{
+      font-size: 30px;
+      font-family: 'Montserrat Alternates', sans-serif;
+      text-align: center;
+      color: #A8EB12;
+    }
+    
+    #radio{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 180px;
+    }
+    
+    
+    .radio{
+      font-size: 30px;
+      font-family: 'Montserrat Alternates', sans-serif;
+    }
+    
+    input[type=radio]{
+      transform: scale(1.5);
+    }
+    
+    #checkbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 80%;
+        height: 100px;
+    }
+    
+    #checkbox-text{
+      font-size: 30px;
+      font-family: 'Montserrat Alternates', sans-serif;
+      text-align: center;
+      color: #A8EB12;
+    }
+    
+    .checkbox{
+        display: flex;
+        justify-content: space-evenly;
+      font-size: 30px;
+      font-family: 'Montserrat Alternates', sans-serif;
+    }
+    .checkbox-div {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 270px;
+        
+    }
+    
+    input[type="checkbox"]{
+     transform: scale(1.5); 
+     position: relative;
+     
+    }
+    
+    #textarea{
+      font-size: 30px;
+      font-family: 'Montserrat Alternates', sans-serif;
+      text-align: justify;
+      color: #A8EB12;
+      width: 70%;
+      height: 200px;
+      border-radius: 10px;
+    }
+    .text-area {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        
+    }
+    
+    #submit{
+      font-size: 30px;
+      font-family: 'Montserrat Alternates', sans-serif;
+      text-align: center;
+      background-color: #D16BA5;
+      color: #A8EB12;
+      width: 40%;
+      padding: 20px;
+      margin-bottom: 20px;
+      border:none;
+      border-radius: 20px;
+      
+    }
+    .submit {
+        display: flex;
+        justify-content: center;
+    }
